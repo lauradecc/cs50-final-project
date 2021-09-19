@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Show
+{% endblock %}
+
+{% block main %}
+
+    <h1 class="red padding">Circus For Developers Show</h1>
+
+    <article id="show" class="container padding w-100">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit <b>porttitor mattis</b>, dictum elementum mollis id dapibus turpis nulla bibendum, senectus lacinia vulputate habitant tristique a tincidunt pellentesque. Turpis egestas lacus etiam blandit interdum magna ante dictum posuere inceptos, taciti lobortis hendrerit suspendisse ultrices penatibus dapibus libero fermentum. Penatibus praesent nascetur id <b>ultricies dictumst pellentesque</b> non, dis maecenas purus nullam taciti netus euismod felis, egestas himenaeos tristique nostra vivamus sapien.
+        </p>
+        <img src="/static/images/circus.jpg" alt="circus">
+        <h2>A magnificent show like you've never seen before</h2>
+        <p>Nisi a per ridiculus mi quam aliquet eget vitae cubilia taciti, donec nibh cras torquent enim metus faucibus urna potenti vehicula facilisis, dapibus nam nulla bibendum lobortis sociosqu et phasellus nunc. <b>Fusce rutrum</b> massa montes fames varius pulvinar imperdiet a dui nec eget urna, justo purus platea per facilisi magna mauris ac neque lacinia. At mauris orci suscipit rhoncus cubilia taciti dictumst commodo, cras egestas imperdiet proin fusce gravida lacinia, rutrum pellentesque lobortis convallis euismod metus enim. Luctus tristique tempus eleifend donec ullamcorper fames erat faucibus, eu nullam urna egestas et felis in, <b>nostra vitae eget penatibus</b> proin cubilia neque.</p>
+        <form action="/show" method="POST">
+            <input class="btn btn-primary" name="Circus For Developers Show" value="Sign up for the show!" type="submit">
+        </form>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <strong>Et harum quidem rerum facilis</strong> est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae <i>non recusandae</i>. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+        <h3>One last thing: a little surprise when you come to see it</h3>
+        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+        <button id="discover-surprise" class="btn btn-primary" type="button">Discover surprise</button>
+        <div id="surprise"></div>
+        <img src="/static/images/circus2.jpg" alt="circus">
+    </article>
+
+{% endblock %}

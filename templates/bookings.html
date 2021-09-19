@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Bookings
+{% endblock %}
+
+{% block main %}
+
+    <h1 class="red padding">My bookings</h1>
+    <section id="bookings" class="container padding w-100">
+        <ul>
+            {% for workshop in workshops %}
+
+            <li>{{ workshop["name"] }}</li>
+            <form action="/bookings" method="POST">
+                <input class="btn btn-primary" name="{{ workshop["name"] }}" value="Unsubscribe" type="submit">
+            </form>
+
+            {% endfor %}
+
+            {% for show in shows %}
+            <li>{{ show["name"] }}</li>
+            <form action="/bookings" method="POST">
+                <input class="btn btn-primary" name="{{ show["name"] }}" value="Unsubscribe" type="submit">
+            </form>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="who-else" class="container padding w-100">
+        <h2>See which colleagues from your company are coming to the event</h2>
+        <button id="people-button" type="button" class="btn btn-primary">Who else is coming?</button>
+        <ul id="people"></ul>
+    </section>
+
+{% endblock %}

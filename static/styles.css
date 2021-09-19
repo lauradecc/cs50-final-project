@@ -1,0 +1,233 @@
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+body {
+    font-size: 1.1rem;
+}
+
+/* Logo */
+nav img {
+    height: 80px;
+}
+
+/* Navigation bar text */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+nav {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+/* Red color background */
+.red {
+    background-color: red;
+    color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer img {
+    height: 25px;
+}
+
+main .form-control {
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main {
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+main img {
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+main table {
+    /* left-align contents */
+    text-align: left;
+}
+
+main tfoot {
+    /* boldface tables' footers */
+    font-weight: bold;
+}
+
+.container {
+    width: 1200px;
+}
+
+.padding {
+    padding: 30px 0 30px;
+}
+
+.company-logo {
+    height: 120px;
+    margin-top: 20px;
+}
+
+#workshops a {
+    text-decoration: none;
+    color: black;
+}
+
+#workshops a:hover {
+    color: red;
+}
+
+#workshops > div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#workshops > div > article {
+    margin: 25px;
+}
+
+.sport {
+    height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 40px;
+}
+
+/* Forms (registation and log-in) */
+.form-control:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%);
+}
+
+/* Select input in registration page */
+select.form-group {
+    color: #495057;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+select.form-group:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%);
+}
+
+/* Forms button */
+.btn-primary {
+    color: #fff;
+    background-color: red;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: darkred;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%);
+}
+
+
+/* Workshops page */
+#workshops-page img {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#workshops-page h2 {
+    margin: 30px 0 30px;
+    text-align: left;
+}
+
+.lessons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.lessons p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#bookings ul, #who-else ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0 30px;
+}
+
+#bookings li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#bookings input {
+    margin-bottom: 30px;
+}
+
+#event button {
+    background-color: white;
+    color: #141414;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 1.1rem;
+}
+
+#event button:hover, .button:focus {
+    background-color: #eaeaea;
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 40%);
+}
+
+#show img {
+    margin: 24px 0 40px;
+    border: 2px solid black;
+}
+
+#show form input, #show button {
+    margin: 30px 0 40px;
+    font-size: 1.3rem;
+}
+
+#who-else h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#who-else {
+    margin-bottom: 20px;
+}
